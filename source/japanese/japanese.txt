@@ -43,17 +43,17 @@ CorePaginationPrevious: ← 戻る
 CorePaginationNext: 次へ →
 CoreError404Title: ファイルが見つかりません
 CoreError404Text: 要求されたファイルが見つかりませんでした。 あらいやだ...
-CoreError430Title: Login failed
-CoreError430Text: The email or password is incorrect. [Please try again](#data-action-login).
+CoreError430Title: ログインに失敗しました。
+CoreError430Text: メールアドレスかパスワードが間違っています。 [Please try again](#data-action-login).
 CoreError434Title: ファイルが見つかりません
 CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
 CoreError500Title: サーバーエラー
-CoreError500Text: Something went wrong. [yellow error]
+CoreError500Text: 問題が発生しました。[yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
 DanishDescription: Danish/Dansk with language 'da'.
 DisqusDescription: Show Disqus comments on blog.
 DraftDescription: Support for draft pages.
-DraftStatusEmpty: No drafts found.
+DraftStatusEmpty: 下書きはありません。
 DutchDescription: Dutch/Nederlands (België) with language 'nl'.
 EditDescription: WebブラウザーでWebサイトを編集します。
 EditLoginTitle: ようこそ
