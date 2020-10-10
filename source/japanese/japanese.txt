@@ -3,7 +3,7 @@
 Language: ja
 LanguageLocale: ja_JP
 LanguageDescription: 日本語
-LanguageTranslator: Yuhko Senuma
+LanguageTranslator: Yuhko Senuma, masco
 BerlinDescription: Berlin is a theme inspired by Dieter Rams.
 BlogDescription: Blog for your website.
 BlogBy: by
@@ -15,7 +15,7 @@ ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
 CommandDescription: Command line of the website.
 ContactDescription: Email contact page.
 ContactName: 氏名:
-ContactEmail: 氏名:
+ContactEmail: メールアドレス:
 ContactMessage: 送信内容:
 ContactConsent: このウェブサイトに私のメッセージが保存されていることに同意します。
 ContactButton: 送信
@@ -28,8 +28,8 @@ ContactStatusReview: メッセージからリンクを削除してください�
 ContactStatusDone: メール送信を完了しました！
 ContactStatusError: メールを送信できませんでした。暫くしてからもう一度お試し下さい！
 CoreDescription: Webサイトのコア機能。
-CoreDatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
-CoreDateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
+CoreDatePast: 今日, 昨日, @x 日前, １ヶ月前, @x ヶ月前, １年前, @x 年前, on @x
+CoreDateFuture: 直前, 明日, @x 日以内, １ヶ月以内, @x ヶ月以内, １年以内, @x 年以内, on @x
 CoreDateMonths: １月, ２月, ３月, ４月, ５月, ６月, ７月, ８月, ９月, １０月, １１月, １２月
 CoreDateWeekdays: 月曜日, 火曜日, 水曜日, 木曜日, 金曜日, 土曜日, 日曜日
 CoreDateWeekstart: 月曜日
@@ -45,9 +45,9 @@ CoreError404Title: ファイルが見つかりません
 CoreError404Text: 要求されたファイルが見つかりませんでした。 あらいやだ...
 CoreError430Title: Login failed
 CoreError430Text: The email or password is incorrect. [Please try again](#data-action-login).
-CoreError434Title: File not found
+CoreError434Title: ファイルが見つかりません
 CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
-CoreError500Title: Server error
+CoreError500Title: サーバーエラー
 CoreError500Text: Something went wrong. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
 DanishDescription: Danish/Dansk with language 'da'.
@@ -63,7 +63,7 @@ EditLoginForgot: パスワードをお忘れですか？
 EditLoginSignup: ユーザーアカウントを作成しますか？
 EditLoginButton: ログイン
 EditSignupTitle: ユーザーアカウントの作成
-EditSignupName: サイト名:
+EditSignupName: ユーザー名:
 EditSignupEmail: メールアドレス:
 EditSignupPassword: パスワード:
 EditSignupConsent: 私はこのウェブサイトが私の個人データを保存することに同意します。
@@ -85,10 +85,10 @@ EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
 EditRecoverStatusShort: もっと長いパスワードをご入力下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
-EditQuitTitle: Delete user account
-EditQuitStatusNone: Please enter your name to confirm.
-EditQuitStatusMismatch: Please enter a different name.
-EditQuitStatusNext: User account will be deleted, please check your emails.
+EditQuitTitle: ユーザーアカウントの削除
+EditQuitStatusNone: 確認のためにユーザー名を入力してください。
+EditQuitStatusMismatch: 入力したユーザー名が違います
+EditQuitStatusNext: ユーザーアカウントが削除されました。メールを確認してください。
 EditConfirmSubject: ユーザーアカウントの確認
 EditConfirmMessage: こんにちは @usershort さん。\n\nユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
 EditConfirmTitle: ユーザーアカウント
@@ -97,10 +97,10 @@ EditApproveSubject: ユーザーアカウントの登録承認
 EditApproveMessage: こんにちは @usershort さん。\n\n新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
 EditApproveTitle: ユーザーアカウント
 EditApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
-EditReactivateSubject: Reactivate user account
+EditReactivateSubject: ユーザーアカウントの再アクティブ化
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateTitle: ユーザーアカウント
-EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusDone: ユーザーアカウントは再アクティブ化されました。有り難うございました！
 EditVerifySubject: ユーザーアカウントの確認
 EditVerifyMessage: こんにちは @usershort さん。\n\nユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
 EditVerifyTitle: ユーザーアカウント
@@ -109,10 +109,10 @@ EditChangeSubject: ユーザーアカウントの変更
 EditChangeMessage: こんにちは @usershort さん。\n\nユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
 EditChangeTitle: ユーザーアカウント
 EditChangeStatusDone: ユーザーアカウントが変更されました。有難うございました！
-EditRemoveSubject: Delete user account
+EditRemoveSubject: ユーザーアカウントの削除
 EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
 EditRemoveTitle: ユーザーアカウント
-EditRemoveStatusDone: User account deleted. Thank you!
+EditRemoveStatusDone: ユーザーアカウントは削除されました。有り難うございました！
 EditRecoverSubject: ユーザーアカウントを復元
 EditRecoverMessage: こんにちは @usershort さん。\n\nパスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
 EditWelcomeSubject: ようこそ！
@@ -120,20 +120,20 @@ EditWelcomeMessage: こんにちは @usershort さん。\n\nあなたのユー�
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditAccountTitle: ユーザー設定
-EditAccountInformation: You can delete your user account anytime.
-EditAccountMore: Read more…
+EditAccountInformation: いつでもユーザーアカウントを削除できます。
+EditAccountMore: （削除する）
 EditAccountStatusNone: ここでユーザーアカウントを変更できます。
 EditAccountStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
 EditAccountStatusWeak: 別のパスワードをご入力下さい。
 EditAccountStatusShort: もっと長いパスワードをご入力下さい。
 EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
-EditSystemTitle: System settings
-EditSystemSitename: Name of the website:
-EditSystemAuthor: Name of the webmaster:
-EditSystemEmail: Email of the webmaster:
-EditSystemInformation: The webmaster can approve new user accounts.
-EditSystemStatusNone: Here you can change system settings.
+EditSystemTitle: システム設定
+EditSystemSitename: ウェブサイト名:
+EditSystemAuthor: 管理者名:
+EditSystemEmail: Eメール:
+EditSystemInformation: 管理者は新しいユーザーアカウントを承認できます。
+EditSystemStatusNone: ここでシステム設定を変更できます。
 EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: 更新情報
 EditUpdateStatusNone: Datenstrom Yellow で小さなウェブサイトを作る
